@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./CustomButton.module.css";
 
-const CustomButton = ({
+const Button = ({
   children,
   onClick,
   label,
@@ -24,4 +24,4 @@ const CustomButton = ({
   );
 };
 
-export default CustomButton;
+export default Button;
